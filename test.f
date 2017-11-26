@@ -1,0 +1,12 @@
+      PROGRAM TEST
+      CALL PS
+      CALL NPATH
+      CALL MVTO(100, 100)
+      CALL RLNTO(100, 100)
+      CALL RLNTO(0, 100)
+      CALL LNTO(100, 100)
+      CALL CPATH
+      CALL STROKE
+      CALL SHOWPG
+      END PROGRAM TEST
+      

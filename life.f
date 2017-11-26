@@ -28,8 +28,11 @@ c     PostScript
             psx = psx + 10
             IF (alive .EQ. 1) THEN
                count = 1
-               DO WHILE count .LT. 10001)
+               DO WHILE (count .LT. 10001)
                   PRINT *, '000000'
+                  count = count + 1
+               ENDDO
+            ENDIF
          ENDDO
          x = 1
          psx = 100

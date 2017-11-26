@@ -1,7 +1,7 @@
 SHELL   = /bin/sh
 FC	= gfortran
 FLAGS	= -Wall -Wextra -Wconversion -O3
-SOURCES = life.f SUBROUTINES/nuke.sub.f
+SOURCES = life.f SUBROUTINES/nuke.sub.f PostScriptLIB/PSLib.a
 TARGET  = life
 BINDIR	= /usr/local/bin
 

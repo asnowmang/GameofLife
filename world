@@ -1,0 +1,6 @@
+#! /bin/sh
+
+cd PostScriptLIB/
+make
+cd ..
+make
